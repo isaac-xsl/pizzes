@@ -24,7 +24,8 @@ if (empty($_GET['ingr'])) {
     # exit(0);  // Desactivem la sortida immediata per continuar mostrant el botó de retorn
 }
 echo "<br>";
-echo "Autor: dacomo"."<br>";
+echo "Autor: isvepi"."<br>";
+echo "Última actualització: " . date("l jS \of F Y h:i:s A") . "<br>";
 ?>
 <br>
 <a href="pizza.html">Retorna al formulari de selecció d’ingredients</a>
